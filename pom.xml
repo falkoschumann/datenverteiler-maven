@@ -20,6 +20,7 @@
         <project.reporting.outputEncoding>ISO-8859-1</project.reporting.outputEncoding>
         <source.version>1.6</source.version>
         <status>BETA</status>
+        <lizenz>LGPL-2.1</lizenz>
     </properties>
 
     <dependencies>
