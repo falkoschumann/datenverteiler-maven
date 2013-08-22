@@ -25,14 +25,28 @@
 
 package de.bsvrz.sys.funclib.example;
 
-public class Foobar {
+import org.junit.Before;
+import org.junit.Test;
 
-    public String foo() {
-        return "Foo";
+import static org.junit.Assert.assertEquals;
+
+public class FoobarTest {
+
+    private Foobar fixture;
+
+    @Before
+    public void setUp() {
+        fixture = new Foobar();
     }
 
-    public String bar() {
-        return "Bar";
+    @Test
+    public void testFoo() {
+        assertEquals("Foo", fixture.foo());
+    }
+
+    @Test
+    public void testBar() {
+        assertEquals("Bar", fixture.bar());
     }
 
 }

@@ -1,4 +1,4 @@
-datenverteiler-swe-maven-plugin
-===============================
+SWE-Bibliothek Archetype
+========================
 
-Maven Plugin zum Bauen eines SWE-Distributionspaktes für den Datenverteiler.
+Maven Archtetype zum Anlegen einer SWE-Bibliothek.
